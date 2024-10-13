@@ -1,0 +1,18 @@
+body {
+    font-family: 'Montserrat';
+}
+
+#map {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./bg.svg');
+    overflow: hidden;
+}
+
+#map svg rect {
+    transition: fill 0.2s; /* Smooth transition for color change */
+}
+
+#map svg rect:hover {
+    fill: rgba(255, 255, 255, 0.3); /* Light white fill on hover */
+}
